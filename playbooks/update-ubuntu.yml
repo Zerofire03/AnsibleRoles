@@ -1,5 +1,5 @@
 ---
-- hosts: ubuntucontainers:ubuntuvms
+- hosts: all
   tasks:
     - name: Update chache
       apt:
